@@ -78,15 +78,30 @@ textarea {
 #container-1 {
   background-color: #f0f0f0;
   border-radius: 10px;
-  padding: 30px 60px;
+  padding: 20px;
   width: 400px;
-  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   font-family: "Fruktur", cursive;
-  cursor: pointer;
 }
 
-#container-1,
+#container-title,
+#container-img {
+  margin: 0;
+  padding: 0;
+  flex-shrink: 1;
+}
+
+#container-1 img {
+  width: 60px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*#container-1,*/
 #container-2 {
   background-color: #f0f0f0;
   border-radius: 10px;
@@ -105,10 +120,4 @@ textarea {
   border-radius: 0px 10px 10px 0px;
   position: relative;
   left: 62px;
-}
-
-#container-1 img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
 }
