@@ -1,5 +1,5 @@
 body {
-  background-color: #908fec;
+  background-color: #5f5de4;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -85,14 +85,14 @@ textarea {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-  font-family: "Fruktur", cursive;
+  /*font-family: "Fruktur", cursive;*/
 }
 
 #container-title,
 #container-img {
   margin: 0;
   padding: 0;
-  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 #container-1 img {
@@ -101,14 +101,19 @@ textarea {
   border-radius: 10px;
 }
 
-/*#container-1,*/
+#container-title {
+  font-family: "Cinzel", serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
 #container-2 {
   background-color: #f0f0f0;
   border-radius: 10px;
   padding: 20px;
   width: 400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
   display: flex;
   flex-direction: column;
   align-items: center;
