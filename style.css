@@ -83,29 +83,32 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-  /*font-family: "Fruktur", cursive;*/
 }
 
 #container-title,
 #container-img {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0;*/
   flex-grow: 1;
 }
 
 #container-img {
-  width: 60px;
+  width: 50px;
   height: auto;
   border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 0;
 }
 
 #container-title {
   font-family: "Cinzel", serif;
   font-size: 28px;
   letter-spacing: 2px;
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 0;
 }
 
 #container-2 {
