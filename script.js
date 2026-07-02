@@ -1,7 +1,6 @@
 let decryptBtn = document.getElementById("decrypt-btn");
 let eInput = document.getElementById("encryptInput-1");
 let pInput = document.getElementById("plainInput-1");
-let inputs = [eInput, pInput];
 let copyBtn = document.getElementById("copyToClipBoard");
 
 function rot13(eInput) {
