@@ -1,5 +1,6 @@
 body {
-  background-color: #3d6adb;
+  /*background-color: #3d6adb;*/
+  background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*3dvLKI50rPGLC-LAFTkp-w.jpeg);
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -55,13 +56,13 @@ textarea {
   margin-bottom: 10px;
 }
 
-#encrypt-btn,
+#decrypt-btn,
 #copyToClipBoard {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  background-color: #7674ed;
-  color: #eda9a9;
+  background-color: #804adf;
+  color: #e79250;
   font-family: Arial, sans-serif;
   font-size: 16px;
   padding: 4px 12px;
