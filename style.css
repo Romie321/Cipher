@@ -60,19 +60,12 @@ textarea {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  background-color: #908fec;
-  color: #fff;
+  background-color: #7674ed;
+  color: #eda9a9;
   font-family: Arial, sans-serif;
   font-size: 16px;
   padding: 4px 12px;
   margin-top: 10px;
-}
-
-#shiftInput {
-  transform: scale(1.5);
-  outline: none;
-  cursor: pointer;
-  border: 1px solid #ccc;
 }
 
 #container-1 {
