@@ -27,3 +27,12 @@ decryptBtn.addEventListener("click", function () {
   let decryptedText = rot13(encryptedText);
   pInput.value = decryptedText;
 });
+
+function copyText() {
+  pInput.select();
+  pInput.setSelectionRange(0, 99999); // For mobile devices
+  document.execCommand("copy");
+  alert("Copied to clipboard: " + pInput.value);
+}
+
+copyBtn.addEventListener("click", copyText);
